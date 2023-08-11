@@ -24,7 +24,7 @@ export default function App () {
     }
     return (
         <>
-        <button className="close" onClick={handleToggle} >{ isOpen ? "Close" : "Open"}</button>
+        <button className="close" onClick={handleToggle} >{ isOpen ? "X Close" : "Open"}</button>
         {isOpen && 
          <div className="steps"> 
          <div className="numbers">
